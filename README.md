@@ -77,7 +77,7 @@ Clone the repository locally.
 2. Update `spring.datasource.username` and `spring.datasource.password` in `application.properties` accordingly.
 3. Run the following command in a terminal window.
    `./gradlew bootRun`
-4. You may set `spring.jpa.hibernate.ddl-auto` to `update` after table creation.
+4. You may set `spring.jpa.hibernate.ddl-auto` value from `create` to `update` after table creation.
 
 ## User Stories Assumptions
 
