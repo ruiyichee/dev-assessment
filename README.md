@@ -27,7 +27,7 @@ The database consists of three tables namely: student, teacher and registration.
 - teacher: A table that manages the teacher data.
 - registration: A table that manages the relationship between a student and a teacher.
 
-The database UML is as follows:
+The database UML is as follows, where one student can have many registration (One-Many) and one teacher can have many registration (One-Many):
 
 ![UML](/readme_graphics/uml.png)
 
