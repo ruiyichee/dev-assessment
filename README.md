@@ -76,7 +76,7 @@ Clone the repository locally.
 1. Create a postgres database named `administrative`. Alternatively, you may update `spring.datasource.url` in `application.properties`.
 2. Update `spring.datasource.username` and `spring.datasource.password` in `application.properties` accordingly.
 3. Run the following command in a terminal window.
-   ./gradlew bootRun
+   `./gradlew bootRun`
 4. You may set `spring.jpa.hibernate.ddl-auto` to `update` after table creation.
 
 ## User Stories Assumptions
@@ -99,7 +99,7 @@ A list of unique students who are registered with all the given teachers is retu
 ## Error Responses Handling
 
 Enumerations for all the custom error messages were created according to the domains. All the errors follow the JSON response body as follows:
-{ "message": "Some meaningful error message" }
+`{ "message": "Some meaningful error message" }`
 
 ## Areas for Improvements
 
