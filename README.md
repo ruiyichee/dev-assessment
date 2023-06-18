@@ -75,9 +75,9 @@ Clone the repository locally.
 
 1. Create a postgres database named `administrative`. Alternatively, you may update `spring.datasource.url` in `application.properties`.
 2. Update `spring.datasource.username` and `spring.datasource.password` in `application.properties` accordingly.
-3. Run the following command in a terminal window.
-   `./gradlew bootRun`
-4. You may set `spring.jpa.hibernate.ddl-auto` value from `create` to `update` after table creation.
+3. Ensure that your postgres server is up and running by running the following command in a terminal window. `psql -U postgres`
+4. Run the following command in a terminal window. `./gradlew bootRun`
+5. You may set `spring.jpa.hibernate.ddl-auto` value from `create` to `update` after table creation.
 
 ## User Stories Assumptions
 
